@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Excersice 1</title>
+        <script>
+         var nama = "Ibnu Malik";
+         var namabelakang = "Malik";
+         var alamat = "Jakarta Utara";
+         var email = "ibnumalik_jakarta@yahoo.com";
+         var kampus = "UNINDRA, S1 Teknik Informatika - Semester 2";
+         var lahir = " Jakarta";
+        </script>
+        <style>
+         .profile {
+             margin: 20px;
+             width: 300px;
+             font-size: 20px;
+         }
+         
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="profile">
+                <h1>Ibnu Malik</h1>
+                <p></p><button onclick="document.querySelector('p').textContent = 'Nama panggilan saya ' + (namabelakang) + ', saya lahir di ' + (lahir) + ' , saya anak kedua dari 6 bersaudara. Saat ini saya kuliah di ' + (kampus)">
+                        Lihat Biodata Singkat</button>  <button onclick="document.querySelector('p').textContent = ''">
+                                Tutup</button></div>
+        
+    </body>
+</html>
